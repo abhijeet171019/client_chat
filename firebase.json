@@ -1,0 +1,17 @@
+{
+    "hosting": {
+      "public": "build",
+  "site": "chatapplication-fbff9",
+   "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  }

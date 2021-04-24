@@ -1,7 +1,7 @@
 {
     "hosting": {
       "public": "build",
-  "site": "chatapplication-fbff9",
+  "site": "chat-application-75cf2",
    "ignore": [
         "firebase.json",
         "**/.*",

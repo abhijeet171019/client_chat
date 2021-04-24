@@ -1,21 +1,24 @@
 .textContainer {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
-    color: white;
+    margin-right: 40px;
+    color: black;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     height: 80%;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .activeContainer {
     display: flex;
     align-items: center;
-    margin-bottom: 50%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 60%;
   }
 
   .activeItem {
     display: flex;
     align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   }
 
   .activeContainer img {

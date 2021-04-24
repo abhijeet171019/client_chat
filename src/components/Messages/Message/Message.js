@@ -6,7 +6,7 @@ import './Message.css';
 
 export const Message = ({message: { user, text }, name}) => {
     let isSentByCurrentUser = false;
-    
+
     const trimmedName = name.trim().toLowerCase()
 
     if(user === trimmedName) {
@@ -30,7 +30,7 @@ export const Message = ({message: { user, text }, name}) => {
             </div>
             <p className="sentText pl-10">{user}</p>
         </div>
-    ) 
+    )
     )
 
 };
